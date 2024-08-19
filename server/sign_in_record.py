@@ -1,9 +1,7 @@
 from fastapi import APIRouter, Depends
 
 from model.sign_in_record import signInRecordModel
-from ser.sign_in_record import submitLeaveInfoType, checkLeaveInfoType, \
-    sign_create, signEditType, sign_edit, signInType, checkIn, SignInData, \
-    checktoken, SignInData, scanIn
+from ser.sign_in_record import submitLeaveInfoType, checkLeaveInfoType, sign_create, signEditType, sign_edit, signInType, checkIn, SignInData, checktoken, SignInData
 from utils import makeResponse
 
 # 统一了路由的前缀
